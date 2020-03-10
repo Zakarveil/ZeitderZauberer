@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+  <head>
+    <title>随便写写练练手</title>
+  <meta name="viewpoint" content="width=device-width;initial-scale=1.0;maximum-scle=1;user-scalable=no;">
+        </head>
+
+           <article>
+<h1>我也不知道反正就是随便写写啦耶耶耶</h1>
+<nav draggable="ture"> 
+  <a href="index.html">首页</a>
+  <a href="book.html">图书</a>
+  <a href="bbs.html"> 论坛</a>
+             </nav>
+  <head>
+    <title>随便写写练练手</title>
+  <meta name="viewpoint" content="width=device-width;initial-scale=1.0;maximum-scle=1;user-scalable=no;">
+        </head>
+
+<div id="container" style="width:550px">
+ 
+<div id="header" style="background-color:#FFA500;">
+<h1 style="margin-bottom:0;">扯淡日报</h1></div>
+             </nav>
+             <article>
+<section id="内容一" >
+  <h2><small><a name="目录">下面请看</a></small></h2>
+             <ul id="nav">
+               <li>AAAAA</li>
+               <li><a href="#新闻报道">新闻报道</a></li>
+               <li><a href="#名词解释">名词解释</a></li>
+             </ul>
+  <meter value="3"min="0"max="10">十分之三</meter>
+  <metervalue="0.5">50%</meter>
+  
+             </section>
+             
+             <section>
+               <p>加载进度:<progress is="progress"max="100"><span>0</span>%</progress></p>             
+             </section>
+<menu><command onclick="alert('点啥呢您')">显示进度</command></menu>
+             <script>
+               function click1(){
+                 var progress=document.getElementById('progress');
+                 progress.getElementsByTagName('span')[0].textContent="0";
+                 for(var i=0;i<=100;i++)
+                   updateProgress(i);
+               }
+ function updateProgress(newValue){
+   var progress=document.grtElementBuId('progress');
+   progress.value=newValue;
+   progress.grtElementsByTagName('span')[0].textContent=newValue;
+ }             
+             </script>           
+               
+
+
+  <section id="内容二" style="background-color:#EEEEEE;height:550px;width:400px;float:left;">
+    <h3><a name="新闻报道">这里是最新新闻呢亲</h3>
+    <blockquote>我举个不恰当的例子，有非广东本地的电视台去采访广东人，广东人会用什么语言接受采访？至少90%以上会使用<mark><ins>普通话</ins></mark>。哪怕他的普通话很难听，甚至有很重的口音，他也会在实在没有办法的时候才用粤语代替一两个词汇。</blockquote>
+<hr />
+    <blockquote>反观川渝地区，上到政府企业，下到路边市民，但凡接受采访，无论中央地方，统统使用西南官话。生怕观众不知道你是川渝地区的人。哪怕采访者使用的是普通话。仿佛一时间西南官话成为了普通话。</blockquote>
+<a href="http://www.baidu.com" target="_blank">更多资讯</a>
+<blockquote><a href="#目录">返回</a>
+    <aside>
+      <h4><a name="名词解释">名词解释</h4>
+      <dl>
+        <dt>西南官话</dt>
+        <dd>西南官话当然就是西南地区的官话啦！</dd>
+      </dl>
+<blockquote><a href="#目录">返回</a>
+    </aside>
+           </article>
+
+             
+             
+             
+  <footer  style="background-color:#EEEEEE;height:200px;width:400px;float:left;">
+    <p><small>版权信息</small></p>
+    <p><small><a href="?edit">编辑</a>|<a href="?delete">删除</a>|<a href="?add">添加</a></small></p>
+  </footer>
+</html>
